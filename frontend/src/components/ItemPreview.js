@@ -22,7 +22,6 @@ const ItemPreview = (props) => {
   if (item.image === ""){
     item.image = 'placeholder.png'
   }
-  console.log(item);
   const handleClick = (ev) => {
     ev.preventDefault();
     if (item.favorited) {
